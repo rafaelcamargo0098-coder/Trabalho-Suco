@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A História do Suco de Caixinha</title>
+    <style>
+        :root {
+            --primary: #e67e22;
+            --secondary: #27ae60;
+            --dark: #2c3e50;
+            --light: #f9f9f9;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Estilo para a Ficha de Identificação */
+        .ficha-identificacao {
+            background: #eef2f3;
+            border: 2px solid #dcdde1;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 35px;
+        }
+
+        .ficha-identificacao h3 {
+            margin-bottom: 15px;
+            color: var(--dark);
+            font-size: 1.4rem;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        .ficha-item {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .ficha-item span {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        /* Estrutura em Blocos da Apresentação */
+        .bloco {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 8px solid var(--primary);
+        }
+
+        .bloco-ambiental {
+            border-left-color: var(--secondary);
+        }
+
+        h2 {
+            color: var(--dark);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        li::before {
+            content: "➔";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .bloco-ambiental li::before {
+            color: var(--secondary);
+        }
+
+        .timeline {
+            margin-top: 20px;
+            border-left: 3px dashed #ccc;
+            padding-left: 20px;
+        }
+
+        .step {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .step h4 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #eef2f3;
+            font-size: 0.95rem;
+            color: #7f8c8d;
+            border-top: 1px solid #dcdde1;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            .bloco, .ficha-identificacao { padding: 20px; }
+            li, .ficha-item { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>A Jornada do Suco de Caixinha</h1>
+        <p>Recurso visual para apresentação escolar</p>
+    </header>
+
+    <div class="container">
+
+        <!-- 10) FICHA DE IDENTIFICAÇÃO DO ALUNO -->
+        <div class="ficha-identificacao">
+            <h3>📝 Identificação do Trabalho</h3>
+            <!-- DICA: Você pode apagar as linhas _ e escrever seu nome direto aqui dentro do código se quiser! -->
+            <div class="ficha-item"><span>Nome do aluno:</span> Rafael Camargo</div>
+            <div class="ficha-item"><span>Turma:</span> 26ma296</div>
+            <div class="ficha-item"><span>Produto escolhido:</span> Bebida de fruta em embalagem cartonada</div>
+            <div class="ficha-item"><span>Modalidade escolhida:</span> Apresentação on-line (site interativo)</div>
+            <div class="ficha-item"><span>Data de entrega:</span> _12_/11_/2026_</div>
+        </div>
+
+        <!-- BLOCO 1: INTRODUÇÃO -->
+        <div class="bloco">
+            <h2>🍊 1. Introdução</h2>
+            <ul>
+                <li><strong>Escolha do produto:</strong> Bebidas de fruta em caixinha são encontradas em muitos pontos de venda. A embalagem e o processamento ajudam a conservar o produto, mas sua composição varia.</li>
+                <li><strong>Objetivo do trabalho:</strong> Investigar o caminho que uma bebida de fruta percorre, desde a produção das matérias-primas até chegar ao consumidor.</li>
+                <li><strong>Atenção à categoria:</strong> Produtos chamados informalmente de “suco de caixinha” podem ser sucos, néctares ou refrescos. A categoria e os ingredientes devem ser conferidos no rótulo.</li>
+            </ul>
+        </div>
+
+        <!-- BLOCO 2: DESENVOLVIMENTO -->
+        <div class="bloco">
+            <h2>🚜 2. Origem e Seleção das Matérias-Primas</h2>
+            <ul>
+                <li><strong>De onde vêm:</strong> Frutas, polpas ou sucos concentrados podem ser usados na fabricação, conforme o tipo de bebida e a receita do fabricante. A origem das matérias-primas varia entre produtos.</li>
+                <li><strong>Seleção e preparo:</strong> Quando frutas frescas são utilizadas, elas podem passar por etapas de seleção e lavagem antes do processamento. Os procedimentos específicos dependem da fábrica e da matéria-prima.</li>
+            </ul>
+        </div>
+
+        <div class="bloco">
+            <h2>🏭 3. Etapas de Transformação Industrial</h2>
+            <div class="timeline">
+                <div class="step">
+                    <h4>Passo 1: Processamento e tratamento</h4>
+                    <p>O processo depende do produto. As frutas podem ser processadas para obtenção do suco ou da polpa. A bebida pode passar por tratamento térmico para reduzir microrganismos e ajudar na conservação. O processamento pode afetar alguns nutrientes.</p>
+                </div>
+                <div class="step">
+                    <h4>Passo 2: Controle de qualidade e segurança dos alimentos</h4>
+                    <p>Durante a produção, podem ser avaliadas características como pH, teor de sólidos solúveis (grau Brix) e qualidade microbiológica. Os controles ajudam a verificar se o produto atende aos requisitos de qualidade e segurança.</p>
+                </div>
+                <div class="step">
+                    <h4>Passo 3: Embalagem e envase</h4>
+                    <p>Em alguns produtos de longa duração, o envase asséptico e a embalagem ajudam a proteger o conteúdo da luz e do contato com o ar. A composição da embalagem varia conforme o tipo e o fabricante. A conservação fora da geladeira depende das instruções do rótulo.</p>
+                </div>
+                <div class="step">
+                    <h4>Passo 4: Rotulagem Informativa</h4>
+                    <p>O rótulo apresenta informações como ingredientes, tabela nutricional, lote, validade e instruções de armazenamento e consumo. Confira também se o produto é suco, néctar ou refresco.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2>🚚 4. Armazenamento, Transporte e Distribuição</h2>
+            <ul>
+                <li><strong>Armazenamento:</strong> Antes da distribuição, as embalagens podem ser organizadas em caixas e paletes. As condições de armazenamento dependem das características do produto e das recomendações do fabricante.</li>
+                <li><strong>Logística:</strong> Os produtos são transportados até centros de distribuição e pontos de venda, seguindo cuidados para evitar danos às embalagens e ao conteúdo.</li>
+                <li><strong>Ponto de venda:</strong> Alguns produtos podem ficar fora da geladeira enquanto fechados, se o rótulo indicar. Depois de abertos, devem ser armazenados e consumidos conforme as instruções da embalagem.</li>
+            </ul>
+        </div>
+
+        <!-- BLOCO 3: REFLEXÃO AMBIENTAL -->
+        <div class="bloco bloco-ambiental">
+            <h2>🌱 5. Impactos ambientais e aproveitamento de resíduos</h2>
+            <ul>
+                <li><strong>Impacto da embalagem:</strong> Algumas embalagens cartonadas combinam materiais como papel, plástico e alumínio. A reciclagem depende da coleta seletiva e da existência de instalações adequadas na região.</li>
+                <li><strong>Aproveitamento de resíduos:</strong> Em algumas cadeias de produção, partes das frutas que não são usadas no produto podem ser aproveitadas para outros fins, como ração ou extração de componentes. Isso depende da matéria-prima e da indústria.</li>
+                <li><strong>Uso da água:</strong> As práticas de gestão e reúso de água variam entre fábricas. Para conhecer as ações de uma empresa específica, consulte os materiais publicados pelo fabricante.</li>
+            </ul>
+        </div>
+
+        <!-- BLOCO 4: CONCLUSÃO -->
+        <div class="bloco">
+            <h2>🏁 6. Conclusão e Aprendizados</h2>
+            <ul>
+                <li><strong>O ciclo integrado:</strong> A produção de uma bebida de fruta envolve diferentes etapas, como obtenção das matérias-primas, processamento, controle de qualidade, embalagem e distribuição.</li>
+                <li><strong>Consumo consciente:</strong> Ler o rótulo ajuda a entender a categoria e a composição do produto. Separar corretamente a embalagem para a coleta seletiva também contribui para o aproveitamento dos materiais, quando houver reciclagem disponível.</li>
+            </ul>
+        </div>
+
+    </div>
+
+ <footer>
+            <div style="background: #eef2f3; border: 2px solid #ccc; border-radius: 8px; padding: 20px; margin-top: 40px; text-align: left;">
+                <p style="color: #2c3e50; margin-bottom: 10px; font-weight: bold;"><strong>Fontes consultadas:</strong></p>
+                <ul style="list-style-type: square; padding-left: 20px; color: #333;">
+                    <li style="margin-bottom: 10px;">
+                        <strong>Tetra Pak Brasil</strong> - Tecnologia de embalagens assépticas (Disponível em: <a href="https://tetrapak.com" target="_blank" style="color: #e67e22;">tetrapak.com</a>)
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <strong>Embrapa</strong> - Processamento industrial de sucos de frutas (Disponível em: <a href="https://embrapa.br" target="_blank" style="color: #e67e22;">embrapa.br</a>)
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <strong>CEMPRE</strong> - Dados sobre reciclagem de embalagens longa vida (Disponível em: <a href="http://cempre.org.br" target="_blank" style="color: #e67e22;">cempre.org.br</a>)
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+</body>
+</html>
